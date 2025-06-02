@@ -1,8 +1,4 @@
-Here's a `README.md` file tailored for the HTML + CSS project you shared (TechCon 2025 website):
 
----
-
-```markdown
 # 🌐 TechCon 2025 - Technology Conference Website
 
 Welcome to the official landing page for **TechCon 2025** — a fictional, yet futuristic tech conference experience built with clean and responsive **HTML5** and **CSS3**.
@@ -33,8 +29,10 @@ TechCon2025/
 
 ## 🖼️ Screenshots
 
-![TechCon Banner](https://via.placeholder.com/800x200?text=TechCon+2025+Banner)
-*(Replace with real screenshots if hosted)*
+![image](https://github.com/user-attachments/assets/46e9792c-fcfd-401c-87d5-870436c1ca5d)
+![image](https://github.com/user-attachments/assets/e34f5c2a-7a95-462b-b54e-28aa08e9f107)
+![image](https://github.com/user-attachments/assets/61d6c0f7-ea05-4b21-bd61-5fddfe18495c)
+
 
 ## 💡 Features
 
