@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TechCon 2025 | Technology Conference</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to TechCon 2025 🚀</h1>
+    <p>📅 Event details, ⏰ schedule, 🎤 speakers & 📬 contact form</p>
+    <p>Clean, responsive design built with HTML & CSS.</p>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About TechCon 2025</h2>
+      <p>
+        Join us for the ultimate technology conference featuring insightful talks, hands-on workshops, and networking with top tech minds worldwide. Whether you’re a developer, engineer, or tech enthusiast, TechCon 2025 is your gateway to innovation.
+      </p>
+    </section>
+    <section id="schedule">
+      <h2>Event Schedule</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Session</th>
+            <th>Speaker</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>09:00 - 10:00 AM</td>
+            <td>Opening Keynote: The Future of AI</td>
+            <td>Dr.John</td>
+          </tr>
+          <tr>
+            <td>10:15 - 11:15 AM</td>
+            <td>Blockchain Beyond Crypto</td>
+            <td>Virat</td>
+          </tr>
+          <tr>
+            <td>11:30 - 12:30 PM</td>
+            <td>Hands-on Workshop: Building IoT Devices</td>
+            <td>Mr.James</td>
+          </tr>
+          <tr>
+            <td>01:30 - 02:30 PM</td>
+            <td>Panel Discussion: Women in Tech</td>
+            <td>Multiple Speakers</td>
+          </tr>
+          <tr>
+            <td>02:45 - 03:45 PM</td>
+            <td>Cloud Computing Trends</td>
+            <td>Michael Thompson</td>
+          </tr>
+          <tr>
+            <td>04:00 - 05:00 PM</td>
+            <td>Closing Remarks & Networking</td>
+            <td>Conference Team</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form id="contactForm" action="#" method="post" novalidate>
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" placeholder="Your full name" required minlength="2" />
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="your.email@example.com" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required minlength="10"></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 TechCon. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const form = document.getElementById('contactForm');
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      if(form.checkValidity()) {
+        alert('Thank you for contacting us! We will get back to you soon.');
+        form.reset();
+      } else {
+        alert('Please fill out all fields correctly.');
+      }
+    });
+  </script>
+</body>
+</html>
